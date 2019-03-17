@@ -10,7 +10,7 @@
 namespace
 {
 	constexpr int64_t FrameSize = 1024;
-	static constexpr int64_t SampleRate = 44100;
+	constexpr int64_t SampleRate = 44100;
 }
 
 class AudioRecorder
