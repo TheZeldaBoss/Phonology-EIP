@@ -17,7 +17,7 @@ namespace
 	{
 		std::ofstream *pFile = static_cast<std::ofstream*>(userData);
 		pFile->write((char*)inputBuffer, framesPerBuffer * sizeof(float));
-		return framesPerBuffer * sizeof(float);
+		return 0;
 	}
 }
 
