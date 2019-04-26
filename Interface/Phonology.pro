@@ -6,6 +6,10 @@
 
 QT       += core gui
 
+LIBS += -L$$_PRO_FILE_PWD_/libs/SFML-2.5.1/lib
+LIBS += -lsfml-audio -lsfml-graphics -lsfml-window -lsfml-system
+INCLUDEPATH += $$_PRO_FILE_PWD_/libs/SFML-2.5.1/include
+
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Phonology
@@ -25,11 +29,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-        MainWindow.cpp
+        MainWindow.cpp \
+        MyCanvas.cpp \
+        QSFMLCanvas.cpp \
+        main.cpp
 
 HEADERS += \
-        MainWindow.h
+        MainWindow.h \
+        MyCanvas.h \
+        QSFMLCanvas.h
 
 FORMS += \
         mainwindow.ui
