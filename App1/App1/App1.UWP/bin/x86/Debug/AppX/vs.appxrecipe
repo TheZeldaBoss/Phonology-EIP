@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PCBENOIT</Machine>
+    <WindowsUser>benoit</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=14dec750-5afd-46d7-be13-c8205f5733e8</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\source\App1\App1\App1.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\source\App1\App1\App1.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>D0B7687263C221B09BB39D396B0A59572F9A8762A63066C39B05520A7DCC6B4F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9156e669-714b-4d84-ab6d-841766056258_1.0.0.0_x86__qn7kvdphx60v4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9156e669-714b-4d84-ab6d-841766056258_qn7kvdphx60v4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9156e669-714b-4d84-ab6d-841766056258</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=14dec750-5afd-46d7-be13-c8205f5733e8</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\source\App1\App1\App1.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-07-05T12:39:40.465</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.exe">
+      <PackagePath>entrypoint\App1.UWP.exe</PackagePath>
+      <Modified>2019-07-05T12:39:38.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\benoit.TACHET\.nuget\packages\naudio\1.9.0\lib\uap10.0.10240\NAudio.dll">
+      <PackagePath>NAudio.dll</PackagePath>
+      <Modified>2019-05-04T07:55:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\benoit.TACHET\.nuget\packages\portaudiosharp\0.1.0\lib\netstandard1.6\PortAudioSharp.dll">
+      <PackagePath>PortAudioSharp.dll</PackagePath>
+      <Modified>2019-01-06T19:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-03-12T20:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\benoit.TACHET\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2016-11-30T01:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\benoit.TACHET\.nuget\packages\xamarin.forms\4.1.0.555618\lib\uap10.0\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2019-06-25T21:04:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\benoit.TACHET\.nuget\packages\xamarin.forms\4.1.0.555618\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+      <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
+      <Modified>2019-06-25T21:04:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\benoit.TACHET\.nuget\packages\xamarin.forms\4.1.0.555618\lib\uap10.0\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2019-06-25T21:04:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\benoit.TACHET\.nuget\packages\xamarin.forms\4.1.0.555618\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2019-06-25T21:04:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll">
+      <PackagePath>App1.dll</PackagePath>
+      <Modified>2019-07-05T12:39:31.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\benoit.TACHET\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2016-11-30T01:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2018-10-22T23:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_0.png">
+      <PackagePath>animations\discovery\sound\planet\frame_0.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_1.png">
+      <PackagePath>animations\discovery\sound\planet\frame_1.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_10.png">
+      <PackagePath>animations\discovery\sound\planet\frame_10.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_11.png">
+      <PackagePath>animations\discovery\sound\planet\frame_11.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_12.png">
+      <PackagePath>animations\discovery\sound\planet\frame_12.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_13.png">
+      <PackagePath>animations\discovery\sound\planet\frame_13.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_14.png">
+      <PackagePath>animations\discovery\sound\planet\frame_14.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_15.png">
+      <PackagePath>animations\discovery\sound\planet\frame_15.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_16.png">
+      <PackagePath>animations\discovery\sound\planet\frame_16.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_17.png">
+      <PackagePath>animations\discovery\sound\planet\frame_17.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_18.png">
+      <PackagePath>animations\discovery\sound\planet\frame_18.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_19.png">
+      <PackagePath>animations\discovery\sound\planet\frame_19.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_2.png">
+      <PackagePath>animations\discovery\sound\planet\frame_2.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_20.png">
+      <PackagePath>animations\discovery\sound\planet\frame_20.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_21.png">
+      <PackagePath>animations\discovery\sound\planet\frame_21.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_22.png">
+      <PackagePath>animations\discovery\sound\planet\frame_22.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_23.png">
+      <PackagePath>animations\discovery\sound\planet\frame_23.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_24.png">
+      <PackagePath>animations\discovery\sound\planet\frame_24.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_25.png">
+      <PackagePath>animations\discovery\sound\planet\frame_25.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_26.png">
+      <PackagePath>animations\discovery\sound\planet\frame_26.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_27.png">
+      <PackagePath>animations\discovery\sound\planet\frame_27.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_28.png">
+      <PackagePath>animations\discovery\sound\planet\frame_28.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_29.png">
+      <PackagePath>animations\discovery\sound\planet\frame_29.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_3.png">
+      <PackagePath>animations\discovery\sound\planet\frame_3.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_30.png">
+      <PackagePath>animations\discovery\sound\planet\frame_30.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_31.png">
+      <PackagePath>animations\discovery\sound\planet\frame_31.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_4.png">
+      <PackagePath>animations\discovery\sound\planet\frame_4.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_5.png">
+      <PackagePath>animations\discovery\sound\planet\frame_5.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_6.png">
+      <PackagePath>animations\discovery\sound\planet\frame_6.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_7.png">
+      <PackagePath>animations\discovery\sound\planet\frame_7.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_8.png">
+      <PackagePath>animations\discovery\sound\planet\frame_8.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\animations\discovery\sound\planet\frame_9.png">
+      <PackagePath>animations\discovery\sound\planet\frame_9.png</PackagePath>
+      <Modified>2019-06-27T15:06:54.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.375</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-25T12:25:19.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\voicewatcher_logo.png">
+      <PackagePath>voicewatcher_logo.png</PackagePath>
+      <Modified>2019-04-21T19:04:14.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\xamarin_logo.png">
+      <PackagePath>xamarin_logo.png</PackagePath>
+      <Modified>2019-06-25T12:25:20.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\add.png">
+      <PackagePath>add.png</PackagePath>
+      <Modified>2019-06-25T12:25:20.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\save.png">
+      <PackagePath>save.png</PackagePath>
+      <Modified>2019-06-25T12:25:20.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\cancel.png">
+      <PackagePath>cancel.png</PackagePath>
+      <Modified>2019-06-25T12:25:20.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-06-25T12:25:19.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.xr.xml">
+      <PackagePath>App1.UWP.xr.xml</PackagePath>
+      <Modified>2019-06-25T13:56:40.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-07-05T12:39:37.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-07-05T12:39:37.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-10-22T22:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\benoit.TACHET\.nuget\packages\xamarin.forms\4.1.0.555618\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
+      <Modified>2019-06-25T21:04:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-07-05T12:39:39.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\App1\App1\App1.UWP\bin\x86\Debug\Core\App1.UWP.exe">
+      <PackagePath>App1.UWP.exe</PackagePath>
+      <Modified>2019-07-05T12:39:40.459</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
