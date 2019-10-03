@@ -38,7 +38,7 @@ class _VoicePageState extends State<VoicePage> {
         // in the middle of the parent.
         children: [
           Padding(
-            padding: EdgeInsets.all(10),
+            padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
             child: Align(
               alignment: Alignment.topCenter,
               child:
@@ -46,13 +46,14 @@ class _VoicePageState extends State<VoicePage> {
             ),
           ),
           Align(
-            alignment: Alignment.bottomCenter,
+            alignment: Alignment.topCenter,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Padding(
                   padding: EdgeInsets.fromLTRB(width * 0.04, 0, 0, 10),
-                  child: FlatButton(
+                  child: MaterialButton(
+                    height: height * 0.1,
                     child: Image.asset("images/page decouverte/Page voix/bouton train.png", width: width * 0.4, ),
                     onPressed: () {
                       Navigator.of(context).push(
@@ -62,25 +63,49 @@ class _VoicePageState extends State<VoicePage> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.fromLTRB(0, 0, width * 0.05 + 10, 10),
-                  child: Image.asset("images/bouton non implemente.png", width: width * 0.4,),
+                  padding: EdgeInsets.fromLTRB(0, 0, width * 0.04, 10),
+                  child: MaterialButton(
+                    height: height * 0.1,
+                    child: Image.asset("images/page decouverte/Page voix/bouton carrousel.png", width: width * 0.4,),
+                    onPressed: () {
+                      Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) { return AnimationPage("images/page decouverte/Page voix/Animations voix/Carrousel/", 8);})
+                      );
+                    },
+                  ),
                 ),
 
               ],
             ),
           ),
           Align(
-            alignment: Alignment.bottomCenter,
+            alignment: Alignment.topLeft,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Padding(
-                  padding: EdgeInsets.fromLTRB(width * 0.05 + 10, 0, 0, 10),
-                  child: Image.asset("images/bouton non implemente.png", width: width * 0.4,),
+                  padding: EdgeInsets.fromLTRB(width * 0.04, 0, 0, 10),
+                  child: MaterialButton(
+                    height: height * 0.1,
+                    child: Image.asset("images/page decouverte/Page voix/bouton avion.png", width: width * 0.4,),
+                    onPressed: () {
+                      Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) { return AnimationPage("images/page decouverte/Page voix/Animations voix/Avion/", 18);})
+                      );
+                    },
+                  ),
                 ),
                 Padding(
-                  padding: EdgeInsets.fromLTRB(0, 0, width * 0.05 + 10, 10),
-                  child: Image.asset("images/bouton non implemente.png", width: width * 0.4,),
+                  padding: EdgeInsets.fromLTRB(0, 0, width * 0.04, 10),
+                  child: MaterialButton(
+                    height: height * 0.1,
+                    child: Image.asset("images/page decouverte/Page voix/bouton chat.png", width: width * 0.4,),
+                    onPressed: () {
+                      Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) { return AnimationPage("images/page decouverte/Page voix/Animations voix/Chat/", 8);})
+                      );
+                    },
+                  ),
                 ),
               ],
             ),

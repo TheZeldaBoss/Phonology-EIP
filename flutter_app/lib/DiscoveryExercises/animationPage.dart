@@ -35,7 +35,7 @@ class _AnimationPageState extends State<AnimationPage> {
   void initState() {
     _timer = Timer.periodic(Duration(milliseconds: 200), (timer) {
       setState(() {
-        print(_pos);
+        //print(widget.photos[_pos]);
         _pos = (_pos + 1) % widget.photos.length;
       });
     });
@@ -44,9 +44,14 @@ class _AnimationPageState extends State<AnimationPage> {
 
   @override
   Widget build(BuildContext context) {
+    double height = MediaQuery.of(context).size.height;
+    double width = MediaQuery.of(context).size.width;
 
     return new Image.asset(
+
             widget.photos[_pos],
+            height: height,
+            fit: BoxFit.fill,
             gaplessPlayback: true,
     );
   }

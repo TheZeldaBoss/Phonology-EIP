@@ -54,6 +54,42 @@ flutter:
     - images/page decouverte/Page voix/Animations voix/train/frame 1.png
     - images/page decouverte/Page voix/Animations voix/train/frame 2.png
     - images/page decouverte/Page voix/bouton train.png
+    - images/page decouverte/Page voix/bouton carrousel.png
+    - images/page decouverte/Page voix/bouton avion.png
+    - images/page decouverte/Page voix/bouton chat.png
+    - images/page decouverte/Page voix/Animations voix/Carrousel/frame 0.png
+    - images/page decouverte/Page voix/Animations voix/Carrousel/frame 1.png
+    - images/page decouverte/Page voix/Animations voix/Carrousel/frame 2.png
+    - images/page decouverte/Page voix/Animations voix/Carrousel/frame 3.png
+    - images/page decouverte/Page voix/Animations voix/Carrousel/frame 4.png
+    - images/page decouverte/Page voix/Animations voix/Carrousel/frame 5.png
+    - images/page decouverte/Page voix/Animations voix/Carrousel/frame 6.png
+    - images/page decouverte/Page voix/Animations voix/Carrousel/frame 7.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 1.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 2.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 3.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 4.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 5.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 6.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 7.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 8.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 9.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 10.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 11.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 12.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 13.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 14.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 15.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 16.png
+    - images/page decouverte/Page voix/Animations voix/Avion/frame 17.png
+    - images/page decouverte/Page voix/Animations voix/Chat/frame 0.png
+    - images/page decouverte/Page voix/Animations voix/Chat/frame 1.png
+    - images/page decouverte/Page voix/Animations voix/Chat/frame 2.png
+    - images/page decouverte/Page voix/Animations voix/Chat/frame 3.png
+    - images/page decouverte/Page voix/Animations voix/Chat/frame 4.png
+    - images/page decouverte/Page voix/Animations voix/Chat/frame 5.png
+    - images/page decouverte/Page voix/Animations voix/Chat/frame 6.png
+    - images/page decouverte/Page voix/Animations voix/Chat/frame 7.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
